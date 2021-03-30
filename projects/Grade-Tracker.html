@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="icon" href="../images/favicon.png" type="image/png">
+   <title>Grade Tracker</title>
+    <!--============================CSS============================================= -->
+    <!-- main css -->
+
+    <!--<link rel="stylesheet" href="css/style.css"-->
+    <link rel="stylesheet" href="../css/main.css">
+
+
+    <!-- My CSS-->
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/projectscript.js"></script>
+    <!--End WebSite Scripts-->
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="/css/bootstrap.css">-->
+
+    <!-- Font Awesome-->
+    <!--<script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>-->
+    <script defer src="../fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/js/all.js"></script>
+  
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@200&family=Unica+One&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+
+    </style>
+  </head>
+
+
+  <body>
+
+    <header class="project-header">
+        <a class="back-link" href="../index.html">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <span>Go Home</span>
+        </a>
+        <h1 class="project-title">Grade Tracker</h1>
+    </header>
+
+    <main class="project-main">
+        
+        <div class="project-section project-description">
+            <h3>Description</h3>
+            <p>This is a productivity app that tracks a students GPA and CGPA on a term basis. 
+                The user can enter in their course details such course code, name, grade, and credit.
+                Once the user enter their details for all their courses, they can select their school in the settings page to use their school's GPA conversion chart. 
+                If their school is not in the list of available schools, they can choose 'custom' to allow them to enter their schools grades manually.
+                After their school has been selected they will be able to calcualte their GPA near the bottom of the home page. 
+                The inspiration for this app came from another app that my brother told me about called <a target="_blank" href="https://www.whatsmygpa.ca/">WhatsMyGPA.ca</a> where a user can enter their course grades and credits 
+                and have their GPA calculated. To make Grade Tracker unique I added a few extra features such as being able to move courses around, find courses that meet a certain grade, and keeep track of prerequisite as well as corequisites.
+            </p>
+        </div>
+
+        <div class="project-section project-challenges">
+            <h3>Challenges</h3>
+            <p>Grade Tracker was the first project I made using React so it was a bit difficult getting used to JSX syntax as well as concepts such as lifting state, lifecycle methods, etc.
+                I also used Redux for the first time as well which solved a lot of problems related to prop drilling. Another big challenge was implementing the logic for editing the corequisites 
+                courses which required the use of the Javascript Set class as well as finding the union of two sets.
+
+            </p>
+        </div>
+
+        <div class="project-subsection project-tech">
+            <h3>Technologies Used</h3>
+            <div class="tech-inner">
+                <div>React</div><div>Redux</div><div>Styled-Components</div>
+            </div>
+        </div>
+
+        <div class="project-subsection">
+            <h3>Links</h3>
+            <ul class="project-links">
+                <li>
+                    <i class="fas fa-link"></i>
+                    <a target="_blank" href="https://joshade.github.io/Grade-Tracker/#/">Demo</a>
+                </li>
+                <li>
+                    <i class="fab fa-github"></i>
+                    <a target="_blank" href="https://github.com/joshADE/Grade-Tracker">Source Code</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="project-screenshot">
+            <h3>Screenshots</h3>
+            <img class="project-image" src="../images/gt-transfer3.PNG" alt="Grade Tracker Image">
+        </div>
+
+    </main>
+  
+
+  
+
+  <!--====================Footer===================-->
+  <footer id="footer">
+    <div class="container">
+      <p class="copyright-info">
+        &copy; Joshua Adeyemo 2021
+      </p>
+      <div id="link-container" class="">
+        <a href="https://github.com/joshADE" target="_blank" class="contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:josh_d_a@hotmail.com" class="contact-details"><i class="fas fa-envelope"></i> Send email</a>
+      </div>
+     
+    </div>
+    
+  </footer>
+<!--====================Footer===================-->
+
+<!--JavaScripts ========================== -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.waypoints.min.js"></script>
+
+<!--gmaps Js-->
+ </body>
+
+</html>

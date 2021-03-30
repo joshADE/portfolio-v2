@@ -1,0 +1,33 @@
+{
+    "journey":
+    {
+        "events": [
+            
+        {
+            "date": "Sept. 5, 2010",
+            "summary": "First CS Class",
+            "description": "I began my coding journey in Secondary School after deciding to take my first Computer Science class and fell in love with the material."
+        }
+        ,{
+            "date": "May 15, 2011",
+            "summary": "First CS Project",
+            "description": "The class was tasked with writing our first project in VB6 - I decided on a Chutes and Ladders variant."
+        }
+        ,{
+            "date": "May 27 , 2012",
+            "summary": "Second HS Project",
+            "description": "My second HS project in CS2 - Pong (Turing)."
+        }
+        ,{
+            "date": "Sept. 24, 2012",
+            "summary": "Programming Club",
+            "description": "Joined Schools Programming Club(learned about OOP)."
+        }
+        ,{
+            "date": "Sept. 5, 2016",
+            "summary": "Post-Secondary Program",
+            "description": "Enrolled in my current program at Sheridan."
+        }
+        ]
+    }
+}

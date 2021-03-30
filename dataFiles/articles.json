@@ -1,0 +1,50 @@
+{
+    "articles":{
+        "site":[
+            {
+                "src": "https://hackernoon.com/6-skills-every-developer-should-have-besides-coding-skills-35ab2891a1e4",
+                "title": "6 Skills Every Developer Should Have",
+                "img-src":"https://hackernoon.com/hn-images/1*WCxAynIBqN3rwe4a342gcA.jpeg",
+                "img-alt":"developer coding"
+
+            }
+        ]
+        ,"video":[
+            {
+               "sources":[
+                    {
+                        "src": "Java",
+                        "type": ""
+                    }
+                    ,{
+                        "src": "Java",
+                        "type": ""
+                    }
+                ],
+                "title": "",
+                "img-src":"",
+                "img-alt":""
+            }
+        ]
+        ,"audio":[
+            {
+                "sources":[
+                    {
+                        "src": "Java",
+                        "type": ""
+                    }
+                    ,{
+                        "src": "Java",
+                        "type": ""
+
+                    }
+                ],
+                "title": "",
+                "img-src":"",
+                "img-alt":""
+
+            }
+        ]
+
+    }
+}

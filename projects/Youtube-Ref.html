@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="icon" href="../images/favicon.png" type="image/png">
+   <title>Youtube-Ref</title>
+    <!--============================CSS============================================= -->
+    <!-- main css -->
+
+    <!--<link rel="stylesheet" href="css/style.css"-->
+    <link rel="stylesheet" href="../css/main.css">
+
+
+    <!-- My CSS-->
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/projectscript.js"></script>
+    <!--End WebSite Scripts-->
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="/css/bootstrap.css">-->
+
+    <!-- Font Awesome-->
+    <!--<script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>-->
+    <script defer src="../fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/js/all.js"></script>
+  
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@200&family=Unica+One&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+
+    </style>
+  </head>
+
+
+  <body>
+
+    <header class="project-header">
+        <a class="back-link" href="../index.html">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <span>Go Home</span>
+        </a>
+        <h1 class="project-title">Youtube-Ref</h1>
+    </header>
+
+    <main class="project-main">
+        
+        <div class="project-section project-description">
+            <h3>Description</h3>
+            <p>
+                Youtube-Ref is a web app that is designed to store and playback specific points on Youtube videos. 
+                The user can create a reference by entering the link to the Youtube video and then using a slider to select the start and optional end point.
+                After the video reference has been created the user can choose to delete or edit the reference. There is also a playlist feature to save videos into a playist and move videos between playlist.
+                The inspiration for this app came from non implemented feature of my old capstone project which allowed the user to mark and save reference point on videos. 
+                (I am aware that there is a chrome extension that solves the same problem called <a target="_blank" href="https://github.com/chaosifier/TubeMark">TubeMark</a>, but as this is a MERN stack app, it also allows syncing across different devices)
+            </p>
+        </div>
+
+        <div class="project-section project-challenges">
+            <h3>Challenges</h3>
+            <p>
+                The most difficult issue I faced during the development was implementing the backend and database for the playlist feature. 
+                I eventually settled for having the playlist and videos as different collections/tables in the database with a reference to a list of all 
+                the videos in the playlist collection and a reference to the playlistId in the video collection. Videos that were created without a playlist would have a 
+                playlistId of null which meant that they couldn't be ordered in the database.
+            </p>
+        </div>
+
+        <div class="project-subsection project-tech">
+            <h3>Technologies Used</h3>
+            <div class="tech-inner">
+                <div>React</div><div>Redux</div><div>NodeJS</div><div>Express</div><div>MongoDB</div>
+            </div>
+        </div>
+
+        <div class="project-subsection">
+            <h3>Links</h3>
+            <ul class="project-links">
+                <li>
+                    <i class="fas fa-link"></i>
+                    <a target="_blank" href="https://youtube-ref.netlify.app/#/">Demo</a>
+                </li>
+                <li>
+                    <i class="fab fa-github"></i>
+                    <a target="_blank" href="https://github.com/joshADE/Youtube-Ref-Frontend">Source Code</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="project-screenshot">
+            <h3>Screenshots</h3>
+            <img class="project-image" src="../images/Youtube-Ref.PNG" alt="Grade Tracker Image">
+        </div>
+
+    </main>
+  
+
+  
+
+  <!--====================Footer===================-->
+  <footer id="footer">
+    <div class="container">
+      <p class="copyright-info">
+        &copy; Joshua Adeyemo 2021
+      </p>
+      <div id="link-container" class="">
+        <a href="https://github.com/joshADE" target="_blank" class="contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:josh_d_a@hotmail.com" class="contact-details"><i class="fas fa-envelope"></i> Send email</a>
+      </div>
+     
+    </div>
+    
+  </footer>
+<!--====================Footer===================-->
+
+<!--JavaScripts ========================== -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.waypoints.min.js"></script>
+
+<!--gmaps Js-->
+ </body>
+
+</html>
