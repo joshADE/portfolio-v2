@@ -316,8 +316,15 @@ display: none;
 
 /* All Sections */
 
+
+.max-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
 section {
-  min-height: 100vh;
   max-width: 100vw;
   overflow: hidden;
   padding: 100px 0;
@@ -341,6 +348,7 @@ section {
 
 #section-home {
   position: relative;
+  min-height: 100vh;
 }
 
 .hero-area {
@@ -400,9 +408,7 @@ h1 {
 
 /* About Section */
 
-#section-about {
-  min-height: 50vh;
-}
+
 
 .about-content {
   display: flex;
@@ -455,10 +461,9 @@ h1 {
 /* Education Section */
 
 #section-education {
-  min-height: 75vh;
-  padding: 0 100px;
+  padding:300px auto;
   background-image: url(/images/undraw_education_f8ru.svg);
-  background-position: min(150%, 1200px) center;
+  background-position: right center;
   background-repeat: no-repeat;
   background-size: min(50%, 500px);
 }
@@ -469,6 +474,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px 50px;
 }
 
 .school-item {
@@ -517,7 +523,7 @@ h1 {
 
 #section-tech {
   background-image: url(/images/undraw_website_builder_bxki.svg);
-  background-position: center bottom;
+  background-position: center min(100%, 700px);
   background-repeat: no-repeat;
   background-size: min(50%, 500px);
 }
@@ -534,7 +540,7 @@ h1 {
 .tech-item {
   border: 1px solid #818892;
   width: 30%;
-  height: 50vh;
+  height: 550px;
   transition: all 0.5s ease;
   overflow: auto;
   background-color: var(--bg-primary);
@@ -547,7 +553,7 @@ h1 {
 
 .tech-item-heading {
   text-align: center;
-  text-decoration: underline;
+  padding-top: 30px;
   color: #818892;
   font-size: 160%;
 }
