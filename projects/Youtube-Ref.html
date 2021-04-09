@@ -65,7 +65,8 @@
                 The most difficult issue I faced during the development was implementing the backend and database for the playlist feature. 
                 I eventually settled for having the playlist and videos as different collections/tables in the database with a reference to a list of all 
                 the videos in the playlist collection and a reference to the playlistId in the video collection. Videos that were created without a playlist would have a 
-                playlistId of null which meant that they couldn't be ordered in the database.
+                playlistId of null meaning that they couldn't be ordered in the database. I also had difficulties in implementing the playlist feature as the video player component wouldn't 
+                rerender when you change videos. I had to you the key property to force a rerender even though I wasn't using the map method.
             </p>
         </div>
 
