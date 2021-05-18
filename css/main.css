@@ -462,7 +462,7 @@ h1 {
 
 #section-education {
   padding:300px auto;
-  background-image: url(/images/undraw_education_f8ru.svg);
+  background-image: url(https://joshade.github.io/portfolio-v2/images/undraw_education_f8ru.svg);
   background-position: right center;
   background-repeat: no-repeat;
   background-size: min(50%, 500px);
@@ -522,7 +522,7 @@ h1 {
 /* Technology Section */
 
 #section-tech {
-  background-image: url(/images/undraw_website_builder_bxki.svg);
+  background-image: url(https://joshade.github.io/portfolio-v2/images/undraw_website_builder_bxki.svg);
   background-position: center min(100%, 700px);
   background-repeat: no-repeat;
   background-size: min(50%, 500px);
